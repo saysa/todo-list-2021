@@ -25,7 +25,8 @@
         "symfony/monolog-bundle": "^3.0.2",
         "symfony/polyfill-apcu": "^1.0",
         "sensio/framework-extra-bundle": "^6.0.0",
-        "incenteev/composer-parameter-handler": "^2.0"
+        "incenteev/composer-parameter-handler": "^2.0",
+        "symfony/flex": "^1.12"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^3.0"
