@@ -30,6 +30,9 @@
     "require-dev": {
         "symfony/phpunit-bridge": "^3.0"
     },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
     "scripts": {
         "symfony-scripts": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
