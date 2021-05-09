@@ -100,9 +100,6 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.3"
     },
-    "incenteev/composer-parameter-handler": {
-        "version": "v2.1.4"
-    },
     "laminas/laminas-code": {
         "version": "4.2.2"
     },
@@ -480,9 +477,6 @@
             "config/packages/test/web_profiler.yaml",
             "config/routes/dev/web_profiler.yaml"
         ]
-    },
-    "symfony/yaml": {
-        "version": "v5.2.7"
     },
     "twig/extra-bundle": {
         "version": "v3.3.0"

@@ -6,11 +6,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        },
-        "classmap": [
-            "app/AppKernel.php",
-            "app/AppCache.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
@@ -25,7 +21,6 @@
         "symfony/monolog-bundle": "^3.7",
         "symfony/polyfill-apcu": "^1.0",
         "sensio/framework-extra-bundle": "^6.1",
-        "incenteev/composer-parameter-handler": "^2.0",
         "symfony/flex": "^1.12",
         "symfony/asset": "^5.2",
         "symfony/mailer": "^5.2",
@@ -52,14 +47,6 @@
         "symfony/symfony": "*"
     },
     "scripts": {
-        "symfony-scripts": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
-        ],
         "post-install-cmd": [
             "@symfony-scripts"
         ],
